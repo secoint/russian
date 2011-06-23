@@ -4,8 +4,8 @@ require 'spec/rake/spectask'
 require 'rubygems/specification'
 require 'date'
 
-GEM = "russian"
-GEM_VERSION = "0.2.7"
+GEM = "synergy_russian"
+GEM_VERSION = "0.2.8"
 AUTHOR = "Yaroslav Markin"
 EMAIL = "yaroslav@markin.net"
 HOMEPAGE = "http://github.com/yaroslav/russian/"
@@ -18,7 +18,7 @@ spec = Gem::Specification.new do |s|
   s.has_rdoc = true
   s.extra_rdoc_files = ["README.textile", "LICENSE", "CHANGELOG", "TODO"]
   s.summary = SUMMARY
-  s.description = s.summary
+  s.description = "Build of edge version of russian gem, for use with Synergy e-commerce platform"
   s.author = AUTHOR
   s.email = EMAIL
   s.homepage = HOMEPAGE
